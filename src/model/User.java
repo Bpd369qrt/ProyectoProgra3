@@ -9,6 +9,8 @@ public class User {
         this.plan = plan;
     }
 
-    public String getUsername() { return username; }
-    public String getPlan() { return plan; }
+    public String getUsername() {
+        return username; }
+    public String getPlan() {
+        return plan; }
 }

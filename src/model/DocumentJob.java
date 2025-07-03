@@ -17,9 +17,14 @@ public class DocumentJob {
         this.userEmail = email;
     }
 
-    public String getSourceFilePath() { return sourceFilePath; }
-    public String getOutputFormat() { return outputFormat; }
-    public boolean isHighPriority() { return highPriority; }
-    public String getUserEmail() { return userEmail; }
-    public User getRequestingUser() { return requestingUser; }
+    public String getSourceFilePath() {
+        return sourceFilePath; }
+    public String getOutputFormat() {
+        return outputFormat; }
+    public boolean isHighPriority() {
+        return highPriority; }
+    public String getUserEmail() {
+        return userEmail; }
+    public User getRequestingUser() {
+        return requestingUser; }
 }

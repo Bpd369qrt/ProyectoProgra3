@@ -7,7 +7,7 @@ import observer.EmailNotifier;
 import observer.NotifierSubject;
 import observer.SlackNotifier;
 
-public class RealDocumentProcessor implements DocumentProcessorService {
+public class RealDocumentProcessor implements service.DocumentProcessorService {
     @Override
     public void processDocument(DocumentJob job) {
         System.out.println("Procesando documento...");
